@@ -1,0 +1,24 @@
+{
+  "name": "node-tutorial",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "request": "^2.65.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/golfreeze/node-app1/test"
+  },
+  "bugs": {
+    "url": "https://github.com/golfreeze/node-app1/issues"
+  },
+  "homepage": "https://github.com/golfreeze/node-app1/test#readme",
+  "description": ""
+}
