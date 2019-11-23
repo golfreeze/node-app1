@@ -8,6 +8,8 @@ app.get('/', function (req, res) {
 });
 //listen to port 3000 by default
 //app.listen(process.env.PORT || http://3.1.100.15:3000);
-app.listen(process.env.PORT || 3000);
- 
+//app.listen(process.env.PORT || 3000);
+app.listen('3000', '172.31.10.31' ,()=>{
+	console.log("server is listening on 3000 port");
+}) 
 module.exports = app;
